@@ -1,0 +1,107 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    
+}
+
+.logo img {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 10rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid rgb(250, 247, 247, 0.8); */
+    width: 70%;
+    height: 80vh;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.small-container {
+    height: 10%;
+    /* border: 1px solid red; */
+    background-color: rgba(252, 58, 27, 0.9);
+    color: #FEFEFE;
+}
+
+.big-container {
+    /* height: 90%; */
+    /* border: 1px solid blue; */
+    background-color: rgba(252, 58, 27, 0.7);
+}
+
+.title p {
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.date label {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.picture {
+    /* border: 1px solid pink; */
+    margin-top: 2rem;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#photo-of-the-day {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+#video-of-the-day {
+   width: 50vw;
+   /* width: 64rem; */
+   /* height: 36rem; */
+   aspect-ratio: 16 / 9;
+   
+}
+
+.explanation {
+    /* border: 1px solid greenyellow; */
+    /* margin: 2px; */
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.explanation p {
+    font-size: 1.7rem;
+    text-align: justify;
+}
